@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Es4.Studente">
+    <Position X="1" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACBAAAAAAAIgAAABAAAAAIAAEAAAAAAAAEAAAA=</HashCode>
+      <FileName>Studente.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Immatricolazione" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Esami" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Es4.Immatricolazione">
+    <Position X="3.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAQAAACAAAAAAAAgAAAAAAAAAAgAAIAAAAE=</HashCode>
+      <FileName>Immatricolazione.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="CorsoDiLaurea" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Es4.CorsoDiLaurea">
+    <Position X="6.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAEAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAEAAEA=</HashCode>
+      <FileName>CorsoDiLaurea.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Corsi" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Es4.Corso">
+    <Position X="9" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Corso.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Es4.Esame">
+    <Position X="6.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Esame.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Corso" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
